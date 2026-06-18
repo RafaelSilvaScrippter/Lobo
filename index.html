@@ -22,16 +22,37 @@
     </ul>
   </nav>
 </header>
-<main class="main-conteudo grid-container container-width">
+<main aria-labelledby="Minhaarea" class="main-conteudo grid-container container-width">
   <article class="foto-perfil">
-    <img src="./img/perfil.jpg" alt="Minha foto">
+    <img id="Minhaarea" src="./img/perfil.jpg" alt="Minha foto">
   </article>
-  <article class="minha-apresentacao">
+  <article id="Minhaarea" class="minha-apresentacao">
     <h1 class="font-primaria titulo-especializacao">Desenvolvedor
       Front End &
       UX/UI Designer</h1>
     <p class="font-primaria">Localizado no Rio de Janeiro 🏖</p>
   </article>
 </main>
+<article aria-label="Experiencia" class="container-width grid-container">
+  <h2 class="font-primaria titulo-experiencia">Experiência</h2>
+  <div class="font-primaria sobre-experiencia">
+    <p>Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Para aplicativos web como a rede social Dogs eu trabalhei no <strong>UX</strong> e <strong>UI Design</strong> do projeto.</p>
+    <div class="minhas-experiencias font-primaria">
+      <div class="minha-experiencia-item">
+        <span class="ano-do-trabalho">2045</span>
+        <h3 class="nome-projeto-experiencia">Bikcraft</h3>
+        <h3 class="cargo-na-empresa">Desenvolvedor Júnior</h3>
+        <p class="descricao-sobre">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas HTML, CSS e JavaScript. Para aplicativos web como a rede social Dogs.</p>
+        <div class="tecnologias-usadas">
+          <span class="uppercase">html</span>
+          <span class="uppercase">css</span>
+          <span>JavaScript</span>
+          <span>UX Design</span>
+          <span>UI Design</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
 
 </html>
