@@ -1,0 +1,61 @@
+.main-conteudo {
+  margin-top: 3.5rem;
+  align-items: center;
+}
+
+.titulo-especializacao {
+  font-size: 4.5rem;
+  color: #141414;
+  line-height: 80px;
+  max-width: 14ch;
+}
+
+@media (max-width: 1000px) {
+  .titulo-especializacao {
+    font-size: 3.25rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-conteudo {
+    margin-top: 0.5rem;
+  }
+  .titulo-especializacao {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-conteudo {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 750px) {
+  .minha-apresentacao p {
+    margin-top: 0.875rem;
+  }
+
+  .titulo-especializacao::before {
+    display: none;
+  }
+}
+
+.titulo-especializacao {
+  position: relative;
+}
+
+.titulo-especializacao::before {
+  content: url("./img/detalhe.svg");
+  position: absolute;
+  z-index: -1;
+  left: -30px;
+  top: -30px;
+}
+
+@media (max-width: 700px) {
+  .foto-perfil {
+    display: none;
+  }
+}
