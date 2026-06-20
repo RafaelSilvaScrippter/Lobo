@@ -156,6 +156,7 @@
     display: initial;
     position: initial;
     order: 3;
+    text-align: left;
     width: auto;
   }
 

@@ -1,5 +1,7 @@
 .bg-dark {
   background-color: #141414;
+
+  margin-top: 3rem;
 }
 
 .titulo-formacao {
@@ -12,7 +14,6 @@
 }
 
 .grid-formacao {
-  gap: 1.785rem;
   gap: 4.785rem;
   display: grid;
   grid-template-columns: auto 2fr;
@@ -21,6 +22,7 @@
 @media (max-width: 980px) {
   .grid-formacao {
     grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
 
@@ -99,7 +101,7 @@
 .cursos-titulo {
   font-size: 1rem;
   color: #8f8f8f;
-  font-weight: 100;
+  font-weight: 500;
   position: relative;
   display: flex;
   gap: 18px;
