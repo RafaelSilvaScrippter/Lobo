@@ -25,3 +25,7 @@
     padding: 1.5rem;
   }
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
