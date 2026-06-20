@@ -4,6 +4,7 @@
 
 .container-footer {
   padding-top: 4rem;
+  padding-left: 1rem;
   color: #fff;
   display: grid;
   grid-template-columns: auto auto;
