@@ -156,12 +156,14 @@
 
 @media (max-width: 500px) {
   .titulo-formacao {
-    font-size: 6rem;
-    max-width: initial;
+    font-size: 3.5rem;
     line-height: normal;
+    max-width: max-content;
   }
   .sobre-formacao p {
     padding-right: 0px;
+    font-size: 1.2rem;
+    line-height: 30px;
   }
 
   .formacao-detalhe::after {
