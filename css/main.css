@@ -47,7 +47,7 @@
 }
 
 .titulo-especializacao::before {
-  content: url("./img/detalhe.svg");
+  content: url("../img/detalhe.svg");
   position: absolute;
   z-index: -1;
   left: -30px;
